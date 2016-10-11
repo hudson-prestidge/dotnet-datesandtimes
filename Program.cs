@@ -6,7 +6,14 @@ namespace DatesAndTimes
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("");
+            DateTime myValue = DateTime.Now;
+            Console.WriteLine(myValue.ToString());
+            Console.WriteLine(myValue.ToString("d"));
+            Console.WriteLine(myValue.ToString("t"));
+
+
+
+            Console.ReadLine();
         }
     }
 }
