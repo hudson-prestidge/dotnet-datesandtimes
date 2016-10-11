@@ -1,0 +1,12 @@
+﻿using System;
+
+namespace DatesAndTimes
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            Console.WriteLine("");
+        }
+    }
+}
